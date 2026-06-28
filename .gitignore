@@ -1,0 +1,13 @@
+logs/
+target/
+dbt_packages/
+modules/
+.env
+profiles.yml
+jira.md
+data/raw
+*.duckdb
+.venv
+__pycache__/
+init_project.sh
+.github

@@ -1,0 +1,10 @@
+  services:
+    metabase:
+      image: metabase/metabase:latest
+      ports:
+        - "3000:3000"
+      volumes:
+        - ./olist.duckdb:/duckdb/olist.duckdb
+      environment:
+        MB_DB_TYPE: h2
+        JAVA_TIMEZONE: Europe/Paris
